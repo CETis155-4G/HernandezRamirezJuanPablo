@@ -1,0 +1,30 @@
+html{
+    color: black;  /* se establece el color de la letra en negro */
+    font-family: "Open-Sans", sans-serif;  /* familia de fuentes */
+}
+
+.alineacion {
+    margin: auto;
+    width:  1000px;
+}
+
+
+/* se establece el tamaño de la letra */
+h1 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 15px;
+    
+}
+
+h2 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 17px;
+    text-align: justify;
+}
+

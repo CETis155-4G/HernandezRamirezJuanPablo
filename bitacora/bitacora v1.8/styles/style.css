@@ -1,0 +1,40 @@
+html{
+    color: black;  /* se establece el color de la letra en negro */
+    font-family: "Open-Sans", sans-serif;  /* familia de fuentes */
+    background-color: rgb(245, 245, 245);
+}
+
+body {
+    margin: 50px 200px 50px 200px ;
+    padding:10px 30px 10px 30px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+/* se establece el tamaño de la letra */
+h1 {
+    font-size: 40px;
+}
+h2 {
+    font-size: 25px;
+}
+h3 {
+    font-size: 15px;   
+}
+
+p {
+    font-size: 17px;
+    text-justify: center;
+}
+
+.clase {
+    margin-bottom: 50px;
+}
+
+img {
+    transition: all 300ms;
+    position: relative;
+}
+img:hover {
+    transform: scale(1.15)
+}

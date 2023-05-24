@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="./assets/styles/style.css?uuid=<?php echo uniqid();?>" rel="stylesheet">
+	<link href="./assets/styles/spacing.css?uuid=<?php echo uniqid();?>" rel="stylesheet">
+	<link href="./assets/styles/mobileMenu.css?uuid=<?php echo uniqid();?>" rel="stylesheet">
+	<link href="./assets/styles/mediaQueries.css?uuid=<?php echo uniqid();?>" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+	<title>Bitacora</title>
+</head>
+
+<body>
+	<section>
+		<header>
+
+			<a class="logo" href="/">
+				<h3>Bitacora de clase</h3>
+			</a>
+
+			<nav>
+				<ul class="nav-links">
+					<li><a href="./bitacora.html">Bitacora de clase</a></li>
+					<li><a href="http://cetis155.edu.mx/#/">Pagina de la institucion</a></li>
+				</ul>
+			</nav>
+
+			<a class="btn" href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJvlHXqLsNxTZGNGzGDVVmZKkbMGvZGjCPhZbtxsSMcQhwKRfZKSSdsvfDjzdHKvdQtdwBB">Contactame</a>
+			<button class="side-button btn" id="openButton">...</button>
+		</header>
+
+		<div id="sideMenu" class="side-menu overlay">
+			<li><a href="./bitacora.html">Bitacora de clase</a></li> <!-- duplicidad temporal -->
+			<li><a href="http://cetis155.edu.mx/#/">Pagina de la institucion</a></li>
+			<a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJvlHXqLsNxTZGNGzGDVVmZKkbMGvZGjCPhZbtxsSMcQhwKRfZKSSdsvfDjzdHKvdQtdwBB">
+				<button class="button violet cmt-3">
+					Contactame
+				</button>
+			</a>
+		</div>
+	</section>
+
+	<div class="container align-x w-7">
+		<img src="assets/images/foto.jpg" style="width: 150px; align-self: center; display: block; margin: 0 auto;">
+		<h1 style="text-align: center;"> ¡Hola! </h1>
+		<p> Mi nombre es Juan Hernández, soy un apasionado desarrollador principiante
+			de software. Me complace estar aqui hoy para contarte la experiencia y el progreso que
+			he obtenido a lo largo de mi trayectoria como desarrollador web.
+			<br><br>
+			Durante la preparatoria, he tenido la oportunidad de trabajar en diversos proyectos, los cuales
+			en caso de interesarte los puedes encontrar en mi perfil de github:
+		</p>
+		<div class="example-container">
+			<a
+				href="https://github.com/Juan-Pablo-Hernandez-Ramirez">https://github.com/Juan-Pablo-Hernandez-Ramirez</a>
+		</div>
+		<p>
+			En estos proyectos he obtenido habilidades de desarrollo de software, trabajo en equipo
+			y gestión de versiones basado en la metodología ágil.
+		</p>
+		<p>
+			A continuación, te comparto el enlace a mi bitácora, donde registro el progreso del desarrollo de nuestro
+			sistema para la agilización del proceso de levantamiento, preparación y entrega de pedidos en la cafetería
+			de nuestra prepa.
+			<br>
+			Este proyecto ha sido llevado a cabo por mi equipo de desarrollo durante los últimos seis meses.
+		</p>
+
+		<a href="./bitacora.html">
+			<button class="button red">
+				Bitacora de clase
+			</button>
+		</a>
+
+	</div>
+
+
+
+	<script src="./js/mobileMenu.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,134 @@
+/* General Styles */
+
+body {
+    margin: 0;
+}
+
+/* Header */
+
+.violet {
+    background-color: rgb(169, 0, 87);
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.violet:hover {
+    background-color: rgb(238, 0, 119);
+}
+
+
+
+.btn {
+    margin-left: 30px;
+    padding: 9px 25px;
+    border: none;
+    border-radius: 50px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    background-color: rgb(169, 0, 87);
+    color: #edf0f1;
+    cursor: pointer;
+    order: 2;
+    transition: all 0.3s ease 0s;
+}
+
+.btn:hover {
+    background-color: rgb(238, 0, 119);
+}
+
+header {
+    display: flex;
+    padding: 30px 10%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #24252a;
+}
+
+.logo {
+    margin: -10px 0px -10px 0px;
+    margin-left: auto;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    text-decoration: none;
+    cursor: pointer;
+    order: 3;
+}
+
+nav {
+    order: 1;
+}
+
+.nav-links {
+    display: flex;
+    font-size: 16px;
+    list-style: none;
+}
+
+.nav-links a,
+.btn {
+    color: #edf0f1;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.nav-links li {
+    padding: 0px 20px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+    color: #ff0077;
+}
+
+/* Mobile Nav */
+
+.side-button {
+    display: none;
+    margin-left: -30px;
+}
+
+.side-menu {
+    float: left;
+    position: relative;
+    width: 250px;
+    height: 100vh;
+    padding: 20px;
+    left: -300px;
+    justify-content: center;
+    background-color: #2a2b32;
+    transition: left 0.3s ease;
+}
+
+.side-menu li {
+    margin: 10px 0px 10px 0px;
+    padding: 20px 10px 20px 10px;
+    list-style: none;
+    text-align: center;
+    background-color: #3c3e47;
+    transition: all 0.3s ease;
+}
+
+.side-menu li a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.side-menu li:hover {
+    background-color: rgb(169, 0, 87);
+}
+
+.side-menu.moved {
+    left: 0px;
+}
+
+.overlay {
+    position: absolute;
+    z-index: 1;
+}
